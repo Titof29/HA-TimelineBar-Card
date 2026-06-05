@@ -3,9 +3,9 @@ A custom Home Assistant card that visualises the state history of one or more bi
 
 Each entity gets its own bar row, filled with colour where the sensor was active and left empty where it was inactive. Multiple days can be shown stacked, and an optional secondary entity can be overlaid on the same bar in a different colour — with the primary entity always taking visual priority on overlap.
 
-![timeline-bar-card screenshot](Screenshot.png)
 ![timeline-bar-card screenshot](screenshot_examples.png)
-![timeline-bar-card screenshot](Screenshot_under_apexchart.png)
+![timeline-bar-card screenshot](screenshot_under_apexchart.png)
+
 ---
 
 ## Features
