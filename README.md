@@ -52,14 +52,14 @@ entities:
 type: custom:timeline-bar-card
 title: Tariff Periods
 entities:
-  - entity: binary_sensor.tariff_peak
-    name: Peak
+  - entity: binary_sensor.dishwasher_running
+    name: Dishwasher
     color: "#e07b39"
-    legend_label: Peak
-  - entity: binary_sensor.tariff_off_peak
-    name: Off Peak
+    legend_label: Running
+  - entity: binary_sensor.water_boiler_heating
+    name: Water Boiler
     color: "#6c8ebf"
-    legend_label: Off Peak
+    legend_label: Heating
 ```
 
 ### With secondary entity overlay
