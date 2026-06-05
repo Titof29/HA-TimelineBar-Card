@@ -68,13 +68,13 @@ entities:
 type: custom:timeline-bar-card
 title: Tariff Timeline
 entities:
-  - entity: binary_sensor.tariff_peak
-    name: Peak / Shoulder
+  - entity: binary_sensor.water_boiler_heating
+    name: Water Boiler
     color: "#e07b39"
-    legend_label: Peak
-    secondary_entity: binary_sensor.tariff_shoulder
+    legend_label: Heating
+    secondary_entity: binary_sensor.water_boiler_solar_boost
     secondary_color: "#f5c842"
-    secondary_legend_label: Shoulder
+    secondary_legend_label: Heating (boost mode)
 ```
 
 ### Multi-day with offset start hour
