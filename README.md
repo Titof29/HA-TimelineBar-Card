@@ -97,8 +97,21 @@ type: custom:timeline-bar-card
 compact: true
 show_title: false
 entities:
-  - entity: binary_sensor.my_sensor
-    color: "#6c8ebf"
+  - entity: binary_sensor.water_boiler_is_heating
+    name: Water Boiler
+    color: "#C27D00"
+  - entity: binary_sensor.heat_pump_running
+    name: Heat Pump
+    color: "#007A87"
+  - entity: binary_sensor.dishwasher_running
+    name: Dishwasher
+    color: "#2E7D32"
+  - entity: binary_sensor.washing_machine_running
+    name: Washing Machine
+    color: "#7B1FA2"
+  - entity: binary_sensor.tumbler_drier_running
+    name: Tumbler
+    color: "#C62828"
 ```
 
 ---
