@@ -123,9 +123,9 @@ entities:
 | Option | Type | Default | Description |
 |---|---|---|---|
 | `entities` | list | **required** | List of entities to display (see below) |
-| `title` | string | `"Tariff Timeline"` | Card header title |
+| `title` | string | `"Water Boiler Activity"` | Card header title |
 | `days` | number | `1` | Number of days to show (1–7) |
-| `bar_height` | number | `28` | Height of each bar in pixels (4–80) |
+| `bar_height` | number | `9` | Height of each bar in pixels (4–80) |
 | `start_hour` | number | `0` | Hour the timeline starts at (0–23). Use e.g. `22` to match an apexcharts-card with an offset x-axis |
 | `show_title` | boolean | `true` | Show or hide the card title header |
 | `show_names` | boolean | `true` | Show or hide entity name labels |
